@@ -10,6 +10,7 @@ deploy:
   provider: heroku
   api_key:
     secure: 001f65be-5485-4de9-9a70-26958e4305e0
+  skip_cleanup: true
   app: firstlabrsoi
   on:
     repo: Blati/RSOI_1
