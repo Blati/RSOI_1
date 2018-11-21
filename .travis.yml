@@ -6,4 +6,3 @@ install:
   - pip install -r requirements.txt
 script:
   - python3 RSOI_1/manage.py test RSOI_1
-  - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git HEAD
