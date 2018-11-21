@@ -2,13 +2,7 @@ from django.test import Client, TestCase
 
 class multiplyViewTest(TestCase):
     def setUp(self):
-        self.c = Client()
-#         self.testCorrectRequest = HttpRequest()
-#         self.testCorrectRequest.method = 'GET'
-#         self.testCorrectRequest.GET = QueryDict('num1=2&num2=3')
-#         self.testMissingParamRequest = HttpRequest()
-#         self.testMissingParamRequest.method = 'GET'
-#         self.testMissingParamRequest.GET = QueryDict('num1=2')    
+        self.c = Client()    
         
     def testNormalCase(self):
         response = self.c.get('/mult/', {'num1':'2', 'num2':'3'})
