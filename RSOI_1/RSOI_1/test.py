@@ -7,7 +7,7 @@ class multiplyViewTest(TestCase):
     def testNormalCase(self):
         response = self.c.get('/mult/', {'num1':'2', 'num2':'3'})
         self.assertEqual(200, response.status_code)
-        self.assertEqual(6, int(response.content))
+        self.assertEqual(5, int(response.content))
         
     def testMissingParam(self):
         response = self.c.get('/mult/', {'num1':'2'})
