@@ -25,7 +25,7 @@ SECRET_KEY = '3arf^48)1i4!okk!2&n^x2h03%-$xz*%p9j6yr*!)a@%(=!pgt'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.0', 'rsoi-1.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.0', 'firstlabrsoi.herokuapp.com']
 
 
 # Application definition
